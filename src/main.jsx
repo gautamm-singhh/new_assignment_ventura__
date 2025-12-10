@@ -10,7 +10,7 @@ ReactDOM.createRoot(root).render(
   <BrowserRouter>
     
     <Routes>
-      <Route path="/" element ={<IPODetail/>} />
+    
       <Route path="/ipo" element = {<IPO/>}>
         <Route path=":companyID" element={<IPODetail/>} />
       </Route>
